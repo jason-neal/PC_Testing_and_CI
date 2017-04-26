@@ -5,3 +5,4 @@ pytest-cov
 python-coveralls
 flake8
 mypy
+coverage
