@@ -1,7 +1,9 @@
+# Basic .travis.yml file for Travis CI service.
+
 language: python
 # Specify version's to test
 python:
-  - "2.7"
+  #- "2.7"   # Need 3.2 or greater for mypy
   - "3.5"
   - "3.6"
 
@@ -31,7 +33,7 @@ install:
 
 # command to run tests
 script:
-  - pytest --cov=examples.py --cov-report term-missing --durations 5
-
+  # - pytest --cov=examples.py --cov-report term-missing --durations 5
+  - pytest --cov=. --cov-report term-missing
 after_success:
   - coveralls
