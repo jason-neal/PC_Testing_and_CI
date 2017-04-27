@@ -165,11 +165,11 @@ The links here are to my [spectrum_overload](https://github.com/jason-neal/spect
 
 Examples:
 - [Code Climate](https://codeclimate.com/github/jason-neal/spectrum_overload)
-- [Quantified code](https://www.quantifiedcode.com/app/project/gh:jason-neal:spectrum_overload)
+- [Quantified code](https://www.quantifiedcode.com/app/project/gh:jason-neal:spectrum_overload) [![Code Issues](https://www.quantifiedcode.com/api/v1/project/b98ac59838124f07838fd514af29b183/badge.svg)](https://www.quantifiedcode.com/app/project/b98ac59838124f07838fd514af29b183)
   - Can submit pull requests on your repo to make suggested changes. e.g. [this PR](https://github.com/jason-neal/spectrum_overload/pull/8)
 
 
-#### Continuous Integration Testing:
+#### Continuous Integration Testing: [![Build Status](https://travis-ci.org/jason-neal/PC_Testing_and_CI.svg?branch=master)](https://travis-ci.org/jason-neal/PC_Testing_and_CI)
 Services that run your tests.
   - Clone repo and install
   - run tests e.g. pytest
@@ -179,7 +179,7 @@ Services that run your tests.
 [Travis CI](https://travis-ci.org/jason-neal/spectrum_overload) but many others with different flavors (windows, phone apps).
   - configure with .travs.yml file in project root dir
 
-#### Coverage:
+#### Coverage: [![Coverage Status](https://coveralls.io/repos/github/jason-neal/PC_Testing_and_CI/badge.svg)](https://coveralls.io/github/jason-neal/PC_Testing_and_CI)
 - [coveralls.io](https://coveralls.io/github/jason-neal/spectrum_overload)
 - Displays code coverage statistics, and missing lines.
 - Comments coverage change on [PR's](https://github.com/jason-neal/spectrum_overload/pull/19)
