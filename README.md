@@ -63,15 +63,20 @@ mypy examples.py --ignore-missing-imports
 From wikipedia ...
 >Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only
 
-Different types of testing, with differing/overlapping name. E.g. unit tests, integration test, system test, end-user, quality assurance... Most of which are not quite suitable to research.
+Not quite suitable for research but we can make use of some of the concepts/tools.
+
+> In software testing, test automation is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes.
+
+Different types of testing, with differing/overlapping names. E.g. unit tests, integration test, system test, end-user tests, quality assurance tests...
 
 Here I focus on unit-tests and property-based testing.
 
-Unit-tests:
-- Test the functionality of one single unit of code. E.g. one function.
+####[Unit-tests](http://softwaretestingfundamentals.com/unit-testing/):
+- Test the functionality of one single unit of code. E.g. one function per test.
 - Can have more then one check in a given test.
-- Small and quick.
+- Should be Small and fast. You will them running them
 - Should not just be a duplication of the code.
+
 
 For python:
 - [Unittest](https://docs.python.org/2/library/unittest.html) - built in test framework. Tests written as **Classes**.
@@ -215,6 +220,8 @@ Much like Pokémon, gotta catch 'em all!
 - [pre-commit Hooks](https://github.com/pre-commit/pre-commit-hooks)
     - Lint check, run tests have to pass before commits or pushes.
 - [Fail tests if linting doesn't pass](https://jeffknupp.com/blog/2016/12/09/how-python-linters-will-save-your-large-python-project/)
+- Daily test builds?
+
 
 ### Links
 - [pytest](https://docs.pytest.org/en/latest/)
@@ -222,3 +229,4 @@ Much like Pokémon, gotta catch 'em all!
 - [Code Coverage-- General](https://wiki.python.org/moin/CodeCoverage)
 - [Test and Code Podcast](http://pythontesting.net/test-podcast/)
 - [Package Bling](http://tjelvarolsson.com/blog/five-steps-to-add-the-bling-factor-to-your-python-package/)
+- [practical software testing tips](http://www.softwaretestinghelp.com/practical-software-testing-tips-to-test-any-application/)
