@@ -1,4 +1,4 @@
-# PC_Testing_and_CI ![IA](https://img.shields.io/badge/IA-Programmers Club-brightgreen.svg)
+# PC_Testing_and_CI ![IA](https://img.shields.io/badge/IA-Programmers\ Club-brightgreen.svg)
 
 Some introductory things in automated ways to improve your code, and to make your
 The idea is to introduce them and you can try use them if you think they will be helpful to you.
@@ -212,7 +212,7 @@ Gives a quick look at the status of your project.
   - latest version
   - etc.
 
-You can make your own badges at [shields.io/](https://shields.io/). ![IA](https://img.shields.io/badge/IA-Programmers Club-brightgreen.svg)
+You can make your own badges at [shields.io/](https://shields.io/). ![IA](https://img.shields.io/badge/IA-Programmers\ Club-brightgreen.svg)
 
 Much like Pokémon, gotta catch 'em all!
 
