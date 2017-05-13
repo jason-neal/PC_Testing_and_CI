@@ -117,6 +117,7 @@ Ability to pass result of long process into many tests.
  - e.g. database access, web-request, load file.
  - Reduces test run-time and code duplication.
 
+I have heard software testing compared to the warning lights on a car dashboard. There is the check-engine light which is an ominous all inclusive error that does not identify what the problem is, just shows there is one which requires further investigation. The other light you should be familar with is the fuel gauge. This tests one thing only, the fuel level. You immediately know what problem is and how to resolve it. Your unit tests want to be direct like this, effectively test one thing at a time which will narrowly identify where the error is. Testing a large monolithic with a result return "something in your code is broken" isn't very helpful for quickly correcting your code. 
 
 #### [Hypothesis](https://hypothesis.readthedocs.io/en/latest/) - Property based testing.
 Often in science there is not an exact value to test. `assert x == 42` We can however test the properties of the values we expect.
@@ -141,6 +142,12 @@ It throws in unique cases trying to find corner cases you have not though of to 
 - Remembers failed test cases, to test again.
 
 The new release has support for `numpy` although I have not used it yet.
+
+#### Testing Figures
+A feature I have not used yet but would like too one day is [pytest-mpl](https://github.com/matplotlib/pytest-mpl). This is a matplotlib plugin for pytest, allowing you to test the generation of images. 
+From what I have read the pixel difference between the image generated from the code and a reference "correct" image is calcualted. To pass the sum of the pixel differences nees to be below a certian threshold.
+
+This could allow your to test that your code continues to produce the publication figures for reproducability and consistency.
 
 #### Coverage
 How much run able code was actually ran during the tests? Tells you percentage of coverage and which lines were not run.
