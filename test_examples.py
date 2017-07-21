@@ -96,3 +96,12 @@ def test_telluric_mask_with_parameters(limit):
     assert np.all(flux[mask] > limit)
     assert np.all(flux[~mask] <= limit)
     assert len(flux[mask]) < len(flux)
+
+
+from examples import type_hint_test
+
+def test_type_hint_test():
+    # type_hint test just adds.
+    # type hints don't affect the output values
+    assert type_hint_test(1, 2) == 3
+    assert isinstance(type_hint_test(1.1, 2), float)
