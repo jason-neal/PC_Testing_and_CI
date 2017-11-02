@@ -1,4 +1,4 @@
-# PC_Testing_and_CI ![IA](https://img.shields.io/badge/IA-Programmers\ Club-brightgreen.svg)
+# PC_Testing_and_CI ![IA](https://img.shields.io/badge/IA-Programmers%20Club-brightgreen.svg)
 
 Some introductory things in automated ways to improve your code, and to make your
 The idea is to introduce them and you can try use them if you think they will be helpful to you.
